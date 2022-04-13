@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script defer src="valid.js"></script>
+</head>
+<body>
+    <header>
+       
+            <div class="img_container"> 
+                <img src="logo.png" alt="" id="img_logo">
+            </div>
+            <div class="h4_header">
+                <h3>Oil Production Distributed Company</h3>
+          
+            
+        </div>
+    </header>
+    
+    <div class="container">
+        <h2>Web Application Form</h2>
+    <form action="" method="GET" id="form" align="center" class="form">
+        
+        <label for="userName" class="lab">User Name</label><br>
+       
+        <input type="text" value="" name="userName" id="user" placeholder="Enter user name" required><br><br><br>
+
+
+        <label for="password" class="lab">Password</label><br>
+        <input type="password" id="password"  value="" name="password" placeholder="Enter password" required><br><br>
+      
+        <div id="error"></div>
+
+            <!-- <input type="submit" value="Submit" id="btn"> -->
+            <input type="submit" value="Submit" id="btn" onclick="validate()">
+        
+            
+      </form> 
+   
+    </div>
+
+   
+</body>
+</html>
